@@ -1,3 +1,10 @@
 main {
-    margin: 100px 300px 100px 300px;
+    margin: 10% 20% 10% 20%;
+}
+
+img#avatar{
+    padding: 10px ;
+    border: 3px dotted #008080;
+    width: 150px;
+    height: 150px;
 }
