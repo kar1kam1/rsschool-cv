@@ -8,66 +8,71 @@
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <header>
-        <h1>Dmytro Pjatash</h1>
-        <nav>
-            <ul>
-                <li>Contacts</li>
-                <li>About</li>
-                <li>Skills</li>
-                <li>Code</li>
-                <li>Education</li>
-            </ul>
-        </nav>
-        <div class="logo"><img id="avatar" src="avatar.jpg" alt="avatar"></div>
+    <header class="header">
+        <div class="container">
+            <h1>Dmytro Pjatash</h1>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contats" class="nav-link"></a>Contacts</li>
+                    <li class="nav-item"><a href="#about" class="nav-link"></a>About</li>
+                    <li class="nav-item"><a href="#skills" class="nav-link"></a>Skills</li>
+                    <li class="nav-item"><a href="#code" class="nav-link"></a>Code</li>
+                    <li class="nav-item"><a href="#education" class="nav-link"></a>Education</li>
+                </ul>
+            </nav>
+            <div class="logo"><img id="avatar" src="avatar.jpg" alt="avatar"></div>
+        </div>
     </header>
-    <main>
-        <section>
-            <h2>Contacts</h2>
-            <ul>
-                <li>Email: dmytro.pjatash@gmail.com</li>
-                <li>Telegramm: <a href="https://t.me/kar1kam1">kar1kam1</a></li>
-                <li>Git: <a href="https://github.com/kar1kam1">kar1kam1</a></li>
-            </ul>
-        </section>
-        <section>
-            <h2>About myself</h2>
-            <p>Been trying to master back and front end web development for a long time. High survival skills.</p>
-        </section>
-        <section>
-            <h2>Skills</h2>
-            <ul>
-                <li>Frontend: HTML(basic), CSS(basic), JS(basic)</li>
-                <li>Backend: NodeJs(basic), Python(basic)</li>
-                <li>DevOps: Windows(Hyper-V), Linux(Docker, Portainer, Proxmox)</li>
-                <li>Database: SQL(MySQL, PostgresSQL)</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Code</h2>
-            <pre>
-JS:
-console.log('Hello World');
-
-Python:
-print('Hello World')
-
-SQL:
-
-SELECT * FROM testDB WHERE text = 'Hello World';
-            </pre>
-        </section>
-        <section>
-            <h2>Education</h2>
-            <p>East Ukrainian Volodymyr Dahl National University (2014-2018): Faculty of Mathematics. Bachelor degree.</p>
-        </section>
+    <main class="main">
+        <div class="container">
+            <section>
+                <h2>Contacts</h2>
+                <ul>
+                    <li>Email: dmytro.pjatash@gmail.com</li>
+                    <li>Telegramm: <a href="https://t.me/kar1kam1">kar1kam1</a></li>
+                    <li>Git: <a href="https://github.com/kar1kam1">kar1kam1</a></li>
+                </ul>
+            </section>
+            <section>
+                <h2>About myself</h2>
+                <p>Been trying to master back and front end web development for a long time. High survival skills.</p>
+            </section>
+            <section>
+                <h2>Skills</h2>
+                <ul>
+                    <li>Frontend: HTML(basic), CSS(basic), JS(basic)</li>
+                    <li>Backend: NodeJs(basic), Python(basic)</li>
+                    <li>DevOps: Windows(Hyper-V), Linux(Docker, Portainer, Proxmox)</li>
+                    <li>Database: SQL(MySQL, PostgresSQL)</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Code</h2>
+                <code>
+                    JS:
+                    console.log('Hello World');
+                    <br>                
+                    Python:
+                    print('Hello World')
+                    <br>
+                    SQL:
+                    SELECT * FROM testDB WHERE text = 'Hello World';
+                </code>
+            </section>
+            <section>
+                <h2>Education</h2>
+                <p>East Ukrainian Volodymyr Dahl National University (2014-2018): Faculty of Mathematics. Bachelor degree.</p>
+            </section>
+        </div>
     </main>
-    <footer>
-        <a href="https://github.com/kar1kam1">kar1kam1</a>
-        2022
-        <a href="https://rs.school/js/">
-            <img src="https://rs.school/images/rs_school_js.svg" alt="rs_school">
-        </a>
+    <footer class="footer">
+        <div class="container">
+            <a href="https://github.com/kar1kam1">kar1kam1</a>
+            2022
+            <a href="https://rs.school/js/">
+                <img src="https://rs.school/images/rs_school_js.svg" alt="rs_school">
+            </a>
+        </div>
     </footer>
 </body>
 </html>
