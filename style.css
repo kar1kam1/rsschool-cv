@@ -23,19 +23,26 @@ footer{
 header{
     background-color: lightgray;
 }
-.footer>.container>a>img{
-    max-height: 100px;
-}
 
 .logo>img{
     max-height: 150px;
     border-radius: 50%;
 }
 
-header>.container{
+.header .container, 
+.footer .container{
     display: flex;
     justify-content: space-between;
-    max-height: 150px;
+    align-content: center;
+    max-height: 190px;
+}
+
+.footer .container a>img{
+    height: 100px;
+}
+
+.footer .container *{
+    margin: auto 0;
 }
 
 .container{
@@ -43,7 +50,7 @@ header>.container{
     margin: 0 auto;
 }
 .header .container div{
-    padding: 0 20px;
+    padding: 20px 20px;
 }
 .nav-list{
     display: flex;
@@ -64,4 +71,13 @@ header>.container{
 .nav-link:hover{
     background-color: gray;
     color:aliceblue;
+}
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section{
+    width: 50%;
 }
